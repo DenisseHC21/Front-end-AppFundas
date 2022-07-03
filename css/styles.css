@@ -1,0 +1,106 @@
+.imagenes {
+  width: 300px;
+  height: 400px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.iconos {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+#input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.title {
+  padding-top: 20px;
+}
+
+.contact .row {
+  background: var(--black);
+  flex-wrap: wrap;
+}
+
+.contact .row .map {
+  flex: 1 1 30rem;
+  width: 50%;
+}
+
+.contact .row form {
+  flex: 1 1 30rem;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.contact .row form h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.contact .row form .inputBox {
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: var(--border);
+}
+
+.contact .row form .inputBox input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background: none;
+}
+
+:root {
+  --black: #13131a;
+  --bg: #010103;
+  --main-color: #d3ad7f;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+}
+
+html {
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+}
+
+html::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+section {
+  padding: 1rem 5%;
+}
+
+.footer {
+  background: var(--black);
+  text-align: center;
+}
+
+.footer .share {
+  padding: 1rem 0;
+}
+
+.footer .share a {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  color: #fff;
+  border: var(--border);
+  margin: 0.3rem;
+  border-radius: 50%;
+}
+
+.footer .share a:hover {
+  background-color: #0d6efd;
+}
