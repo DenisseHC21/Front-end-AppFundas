@@ -68,28 +68,20 @@
       <table class="table">
         <thead>
           <tr class="table-primary">
-            <th scope="col">#</th>
             <th scope="col">Nombre</th>
+            <th scope="col">Apellido paterno</th>
+            <th scope="col">Apellido materno</th>
             <th scope="col">Usuario</th>
             <th scope="col">Correo</th>
-            <th scope="col">Imagen</th>
+            <th scope="col">Telefono</th>
+            <th scope="col">Dirección</th>
+            <th scope="col">Estado</th>
+            <th scope="col">Municipio</th>
+            <th scope="col">Acciones</th>
+            <th></th>
           </tr>
         </thead>
-        <tbody>
-          <tr class="table-light">
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-            <td>Otto.png</td>
-          </tr>
-          <tr class="table-light">
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-            <td>Otto.png</td>
-          </tr>
+        <tbody id="rows">
         </tbody>
     </div>
     </table>
@@ -139,9 +131,9 @@
     </div>
   </div>
   <!-- MODAL -->
-
-
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="../js/scripts.js"></script>
+  <script src="../js/usuarios.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
